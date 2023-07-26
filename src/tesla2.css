@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+.header{
+ display: flex;
+ height: 50px;
+ align-items: center;
+ justify-content: space-between;
+padding: 0 20px;
+position: fixed;
+width: 100%;
+
+}
+.header ul{
+   list-style: none; 
+    display: flex;
+    justify-content: space-around;
+}
+.header ul li{
+    padding: 0 5px ;
+}
+.header ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.sidebar {
+    /* display: flex; */
+    margin-top: 45px;
+    padding-top: 50px;
+    position: absolute;
+    right: 0;
+    right: -300px;
+    top: 0;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    background-color: yellow;
+    transition: all .5s ease-in-out;
+}
+section{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section .box{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .box .models{
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid; */
+    /* align-items: center; 
+    */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+section .box .models h1{
+    font-size: 40px;
+}
+section .box .models p{
+    font-size: 20px;
+}
+section .buttons{
+    margin-top: 16%;
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+    padding: 0 0px;
+}
+.lbtn ,.rbtn{
+    margin: 0 10px;
+}
+button {
+	padding: 10px 60px;
+	border-radius: 6px;
+}
+.lbtn button{
+    border: 0;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+.rbtn button{
+    font-size: 20px;
+    border: 0;
+    background-color: rgba(255,255,255, 0.5);
+}
