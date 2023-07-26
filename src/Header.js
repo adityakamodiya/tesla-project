@@ -37,7 +37,7 @@ function Header()
                 <li><a href="" onClick = {open} >menu </a></li>
             </ul>
             <ul className="sidebar" style={{right:(menu==true)?"0":"-300px"}}>
-                <CloseIcon onClick={close} />
+                <div className='cross'><CloseIcon onClick={close} /></div>
                 <li><a>model3</a></li>
                 <li><a>model3</a></li>
                 <li><a>model3</a></li>

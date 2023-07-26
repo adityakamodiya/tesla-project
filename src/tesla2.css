@@ -41,7 +41,7 @@ width: 100%;
     justify-content: center;
     flex-direction: column;
     height: 700px;
-    background-color: yellow;
+    background-color:wheat;
     transition: all .5s ease-in-out;
 }
 section{

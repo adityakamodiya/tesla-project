@@ -6,7 +6,7 @@ import model3 from "./images/images/model-3.jpg"
 import models from "./images/images/model-s.jpg"
 import modelx from "./images/images/model-x.jpg"
 import modely from "./images/images/model-y.jpg"
-
+import accessories from "./images/images/accessories.jpg"
 import solar_panal from "./images/images/solar-panel.jpg"
 
 import solar_roof from "./images/images/solar-roof.jpg"
@@ -70,7 +70,14 @@ backgroundimg = {solar_panal}
 //  rbtn = "Existing inventory"
  backgroundimg = {solar_roof}
 />
-
+<Section
+ 
+ model="Aaccessories"
+//  desc="order online for touchless delivery"
+ lbtn = "Custom ordere"
+//  rbtn = "Existing inventory"
+ backgroundimg = {accessories}
+/>
 </>
 )
 
