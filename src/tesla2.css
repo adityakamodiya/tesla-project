@@ -28,23 +28,21 @@ width: 100%;
     text-decoration: none;
 }
 .sidebar {
-    /* display: flex; */
-    margin-top: 45px;
+    align-items: center;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    /* margin-top: 45px; */
     padding-top: 50px;
     position: absolute;
     right: 0;
     right: -300px;
     top: 0;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 700px;
-    background-color:wheat;
     transition: all .5s ease-in-out;
-}
-section{
+    width: 300px;
+}section{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
